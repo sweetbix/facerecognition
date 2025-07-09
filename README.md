@@ -7,20 +7,32 @@ Simple face recognition program written in python, using the face_recognition li
 
 ## Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/sweetbix/facerecognition.git
 cd facerecognition
 ```
 
-2. Install project dependencies:
+### 2. Install project dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Add known faces:
+#### ⚠️ Windows Setup Note
+
+If you're on Windows, you may need to install:
+
+👉 [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+
+Make sure to check:
+- ✅ "Desktop development with C++"
+
+This is required for installing `dlib`, which powers face detection.
+
+
+### 3. Add known faces:
 
 - Upload images of people you want to recognise into the images/ folder.
 - Use clear front-facing images.
