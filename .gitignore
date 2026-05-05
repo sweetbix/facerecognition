@@ -1,0 +1,15 @@
+# Backend runtime / uploads
+backend/data.db
+backend/storage/known_faces/*
+!backend/storage/known_faces/.gitkeep
+
+# Frontend
+frontend/node_modules
+frontend/dist
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
